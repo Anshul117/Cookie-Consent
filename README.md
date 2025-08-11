@@ -1,19 +1,18 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🍪 Cookie Consent (Totally Not Shady™)
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A humorous "cookie consent" modal for the web, inspired by the *too-honest-for-their-own-good* approach.  
+Instead of just telling users you store cookies, this modal pretends to upload their soul to the dark web.  
+Because why *not* have some fun with privacy banners?
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## 🚀 Demo
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+When the page loads:
+1. After 1.5 seconds, a modal appears asking for consent.
+2. If the user tries to **Decline**, the buttons swap positions to make it harder to click "Decline".
+3. On form submission, the modal pretends to:
+   - Upload data to the dark web (loading animation)
+   - Make "the sale"
+   - Display a final "Thank you, you sucker!" message.
 
-Happy Coding!# Cookie-Consent
+
+
